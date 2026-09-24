@@ -10,3 +10,9 @@ const off = (element, event, handler) =>
   element.removeEventListener(event, handler);
 
 export { byId, $, $$, on, off };
+
+// use case
+// const element = $('#myId');
+// const elements = $$('.myClass');
+// const header = byId('header');
+// on(button, 'click', () => { console.log('clicked');});
