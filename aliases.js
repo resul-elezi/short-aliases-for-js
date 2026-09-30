@@ -16,3 +16,4 @@ export { byId, $, $$, on, off };
 // const elements = $$('.myClass');
 // const header = byId('header');
 // on(button, 'click', () => { console.log('clicked');});
+// TODO: ich muss mich informieren ob es sich lohnt sowas zu machen
